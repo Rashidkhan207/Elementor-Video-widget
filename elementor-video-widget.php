@@ -2,10 +2,10 @@
 /**
  * Plugin Name: Polaris Media Elementor video widget
  * Description: Polaris Media Elementor video widget plugin for custom Video Player.
- * Plugin URI:  https://polarismedia.de/
+ * Plugin URI:  https://bscs-projects.blogspot.com/
  * Version:     1.0.0
  * Author:      khan
- * Author URI:  https://polarismedia.de
+ * Author URI:  https://bscs-projects.blogspot.com/
  * Text Domain: polaris-media-elementor-video-widget
  */
  
