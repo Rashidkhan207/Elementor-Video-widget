@@ -176,11 +176,11 @@ class POLARIS_Video_Player extends \Elementor\Widget_Base {
                         'video_size' => esc_html__( '576', 'polaris' ),
                     ],
                     [
-                        'video_link' => 'ttps://devweb89.000webhostapp.com/film1.mp4',
+                        'video_link' => 'https://devweb89.000webhostapp.com/film1.mp4',
                         'video_size' => esc_html__( '720', 'polaris' ),
                     ],
                     [
-                        'video_link' => 'ttps://devweb89.000webhostapp.com/film1.mp4',
+                        'video_link' => 'https://devweb89.000webhostapp.com/film1.mp4',
                         'video_size' => esc_html__( '1080', 'polaris' ),
                     ],
                 ],
@@ -588,7 +588,7 @@ $this->end_controls_section();
 				 
             >
                 <iframe
-                    src="https://www.youtube.com/embed/<?php echo esc_attr($youtube_video_id); ?>?autoplay=<?php echo esc_attr($autoplay); ?>&amp;loop=<?php echo esc_attr($loop) ?>&amp;origin=<?php echo esc_url(get_home_url()); ?>/&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
+                    src="https://youtube.com/embed/<?php echo esc_attr($youtube_video_id); ?>?autoplay=<?php echo esc_attr($autoplay); ?>&amp;loop=<?php echo esc_attr($loop) ?>&amp;origin=<?php echo esc_url(get_home_url()); ?>/&amp;iv_load_policy=3&amp;modestbranding=1&amp;playsinline=1&amp;showinfo=0&amp;rel=0&amp;enablejsapi=1"
                     allowfullscreen
                     allowtransparency
                     allow="autoplay"
