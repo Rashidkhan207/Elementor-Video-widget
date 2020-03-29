@@ -115,6 +115,7 @@ if( !class_exists('POLARIS_Elementor_Init') ){
 
 		// widget scripts
 		function widget_scripts() {
+			wp_register_script( "plyr", POLARIS_URI. '/assets/js/plyr.js', array( 'jquery' ), self::VERSION, true );
 			wp_register_script( "plyr-polyfilled", POLARIS_URI. '/assets/js/player.polyfilled.min.js', array( 'jquery' ), self::VERSION, true );
 			wp_register_script( "polaris-main", POLARIS_URI. '/assets/js/widget-player.js', array( 'jquery' ), self::VERSION, true );
 		}
